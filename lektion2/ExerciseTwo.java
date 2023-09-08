@@ -5,8 +5,8 @@ public class ExerciseTwo {
 
         double circumference = 2 * StrictMath.PI * radius;
         double area =  radius * radius * StrictMath.PI;
-/
-        System.out.printf("Omkretsen på cirkeln är %.2f.\n", circumference);
-        System.out.printf("Arean på cirkeln är %.2f.\n", area);
+
+        System.out.printf("Omkretsen på cirkeln är %.2f.%n", circumference);
+        System.out.printf("Arean på cirkeln är %.2f.%n", area);
     }
 }
