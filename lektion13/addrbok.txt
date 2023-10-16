@@ -1,0 +1,8 @@
+En adressbok består av flera adresser.
+En adress är ett namn och ett telefonnummer.
+
+Man skall kunna lägga till en adress till en adressbok.
+Man skall kunna skriva ut hela adressboken.
+
+Skapa ett program som skapar och skriver ut en adressbok baserat på användarens
+inmatning.
