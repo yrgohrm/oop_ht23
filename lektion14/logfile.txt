@@ -1,0 +1,2 @@
+[main] INFO LogExample - Detta är bra information
+[main] WARN LogExample - Detta är en varning med data: 3
