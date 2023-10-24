@@ -7,8 +7,8 @@ public class DebugThing {
 
     static {
         try (BufferedReader r = Files.newBufferedReader(Path.of("bad_words.txt"))) {
-            while (r.readLine() != null) {
-                String badWord = r.readLine();
+            String badWord;
+            while ((badWord = r.readLine()) != null) {
                 badWords.add(badWord.toLowerCase());
             }
         }
@@ -26,7 +26,7 @@ public class DebugThing {
         // Basically splits a string into words *and* separators.
         String[] words = text.split("((?=\\W)|(?<=\\W))");
 
-        for (int i = 1; i < words.length; i++) {
+        for (int i = 0; i < words.length; i++) {
             String word = words[i];
             if (badWords.contains(word.toLowerCase())) {
                 output.append("*".repeat(word.length()));

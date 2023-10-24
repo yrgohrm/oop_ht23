@@ -14,7 +14,7 @@ public class UglyInteger {
     }
 
     public static List<Integer> getTwoDifferent(final Scanner scan) {
-        int i, j;
+        Integer i, j;
         do {
             System.out.println("Skriv in två tal som är olika:");
             i = scan.nextInt();
