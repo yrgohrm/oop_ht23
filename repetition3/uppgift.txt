@@ -1,0 +1,11 @@
+Skapa en klass för en Pokemon.
+
+Skapa en klass som läser in listan av Pokemon från CSV-filen.
+
+Skapa ett UI där vi kan lista Pokemon av olika typ.
+
+Skapa en klass som läser in listan av Pokemon från JSON.
+
+Skapa ett interface för dessa två typer av inläsning.
+
+Lägg till så vi kan lägga till och skriva ner en lista av Pokemon.
