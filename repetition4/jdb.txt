@@ -1,0 +1,13 @@
+Klasserna måste kompileras med flaggan -g för att inkludera debuginfo.
+
+För att ansluta med jdb:
+
+jdb -attach 127.0.0.1:8000
+
+om det inte funkar på Windows kör istället:
+
+jdb -connect com.sun.jdi.SocketAttach:hostname=localhost,port=8000
+
+
+Starta java med: -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=127.0.0.1:8000 
+
