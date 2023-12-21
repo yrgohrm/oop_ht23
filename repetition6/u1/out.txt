@@ -1,0 +1,4 @@
+Filename: C:\Projekt\oop_ht23\repetition6\u1\ex1.txt
+Date: 2023-12-21T10:42:11.539194100
+Words processed: 4
+Unique words: 2
