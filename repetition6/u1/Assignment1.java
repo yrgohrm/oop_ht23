@@ -15,7 +15,7 @@ public class Assignment1 {
                 System.err.println("feeeeeel!");
                 return;
             }
-            
+
             Path infile = Path.of(args[0]);
             Path outfile = Path.of(args[1]);
 
